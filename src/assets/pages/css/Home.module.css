@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    background-color: white;
+}
+
+.login{
+    height: 100%;
+    margin: 5px;
+    justify-content: flex-end;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.login ul{
+    margin: 5px;
+    list-style: none;
+}
+.login ul a{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.contentHeader{
+    background: linear-gradient(to right, #7B31B7, #0484CC) !important;
+}
+.textoMenu ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    font-weight: 500;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.textoMenu ul li{
+    margin-right: 40px;
+}

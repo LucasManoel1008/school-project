@@ -1,0 +1,16 @@
+
+.entretenimento{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #333333;
+    width: 100vw;
+    height: 100vh;
+}
+.entretenimento .content{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vw auto;
+}
