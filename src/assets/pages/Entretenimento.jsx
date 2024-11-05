@@ -28,6 +28,8 @@ const voltar = () => {
         window.EJS_biosUrl = 'https://raw.githubusercontent.com/LucasManoel1008/Roms-Test-Games/main/Bios/st018.rom'; // URL para BIOS
         window.EJS_gameUrl = 'https://raw.githubusercontent.com/LucasManoel1008/Roms-Test-Games/main/roms/Donkey.smc'; // URL da ROM
         window.EJS_pathtodata = 'data/';
+        window.EJS_language = 'pt-BR';
+        window.EJS_startButtonName = "Começar"
 
         // Carregar o script do loader do EmulatorJS
         const script = document.createElement('script');
@@ -45,7 +47,7 @@ const voltar = () => {
         <div className={`container d-flex justify-content-center ${styles.entretenimento}`}>
             <div className={styles.content}>
                 <h4>País do Macaco</h4>
-                <div style={{ width: '640px', height: '480px', maxWidth: '100%' }}>
+                <div style={{ width: '720px', height: '520px', maxWidth: '100%' }}>
                     <div id="game"></div>
                 </div>
                 <button className='btn btn-primary' onClick={voltar}>Voltar</button>
